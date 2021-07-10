@@ -5,8 +5,9 @@ Census &amp; Geopy Nominatim APIs
 * Part One
   * Use codecs module to pen notebook and save your xml file to text.xml 
   
-  ```with codecs.open('Resources/filw.xml', 'r', encoding='utf8') as f:
-    tt = f.read()
+  ```
+  with codecs.open('Resources/filw.xml', 'r', encoding='utf8') as f:
+  tt = f.read()
   
   * Libraries Used:
     ```import xml.etree.ElementTree as et 
