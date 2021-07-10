@@ -1,9 +1,7 @@
 # job-expansion-challenge
 Census &amp; Geopy Nominatim APIs
 
-
-* Part One
-  ### Part One - Preparing XML file
+### Part One - Preparing XML file
   * Libraries Used:
     ```import xml.etree.ElementTree as et 
     from lxml import objectify
@@ -28,24 +26,13 @@ Census &amp; Geopy Nominatim APIs
   * Step 1c: Begin with  ```np.char.array(df['streetaddress'].values)``` to create arrays for each geographic feature for pre-processin
   * Step 1d: Concatanate streetaddress, city, state, postalcode and country attributes into dataFrame column "location"
   
-   ### Part Two - Adding Latitude & Longitude 
-   * Libraries Used:
-  ```from geopy.geocoders import Nominatim
-  geolocator = Nominatim(user_agent= 'alison.sadel@gmail.com')
-  from geopy.extra.rate_limiter import RateLimiter
-  import pandas as pd
-  import numpy as np
-
-   ### Part Three - Adding Population Columns
-   * Libraries Used:
-   ```import requests
-  import json
-  from census import Census
-  from us import states
+  ### Part Two - Adding Latitude & Longitude
   
- ### Part Four - Visualizations
+  ### Part Three - Adding Population Columns
+  
+  ### Part Four - Visualizations
    * Libraries Used:
-     ```import folium
+  import folium
   from folium.plugins import FastMarkerCluster
   from folium.utilities import normalize
   import branca.colormap as cm
